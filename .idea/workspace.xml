@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087b6cec-df9e-42d9-bb56-fbf0d6c1c2ec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/sirkaue/springboot/start/ApplicationStart.java" afterDir="false" />
+    <list default="true" id="087b6cec-df9e-42d9-bb56-fbf0d6c1c2ec" name="Changes" comment="Adicionando controller">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sirkaue/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sirkaue/springboot/controller/AnimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sirkaue/springboot/controller/AnimeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sirkaue/springboot/start/ApplicationStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sirkaue/springboot/ApplicationStart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +46,11 @@
 }]]></component>
   <component name="RunManager">
     <configuration name="ApplicationStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sirkaue.springboot.start.ApplicationStart" />
+      <option name="MAIN_CLASS_NAME" value="com.sirkaue.springboot.ApplicationStart" />
       <module name="springboot-essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sirkaue.springboot.start.*" />
+          <option name="PATTERN" value="com.sirkaue.springboot.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -81,6 +80,19 @@
       <option name="presentableId" value="Default" />
       <updated>1712861571651</updated>
     </task>
+    <task id="LOCAL-00001" summary="Adicionando controller">
+      <option name="closed" value="true" />
+      <created>1712867461053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712867461053</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Adicionando controller" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionando controller" />
   </component>
 </project>
