@@ -5,7 +5,11 @@ import com.sirkaue.springbootessentials.service.AnimeService;
 import com.sirkaue.springbootessentials.util.DateUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.HttpStatusCode;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -21,15 +25,19 @@ public class AnimeController {
     private final AnimeService animeService;
 
     // Injeção de Dependência via método construtor
-
     public AnimeController(DateUtil dateUtil, AnimeService animeService) {
         this.dateUtil = dateUtil;
         this.animeService = animeService;
     }
 
     @GetMapping
-    public List<Anime> list() {
+    public ResponseEntity<List<Anime>> list() {
         log.info(dateUtil.formatLocalDateTimeToDatabaseStyle(LocalDateTime.now()));
-        return animeService.listAll();
+        return ResponseEntity.ok(animeService.listAll());
+    }
+
+    @GetMapping(path = "/{id}")
+    public ResponseEntity<Anime> findById(@PathVariable Long id) {
+        return ResponseEntity.ok(animeService.findById(id));
     }
 }

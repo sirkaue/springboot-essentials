@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d5e96c5-3150-43a3-836d-10b2cc8efcd4" name="Changes" comment="Gerando projeto com Spring Initializr">
+    <list default="true" id="7d5e96c5-3150-43a3-836d-10b2cc8efcd4" name="Changes" comment="Implementando Service, Repository - pt1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sirkaue/springbootessentials/controller/AnimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sirkaue/springbootessentials/controller/AnimeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/sirkaue/springbootessentials/domain/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sirkaue/springbootessentials/domain/Anime.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sirkaue/springbootessentials/service/AnimeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sirkaue/springbootessentials/service/AnimeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -49,7 +52,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kauel/OneDrive/Área de Trabalho/springboot-essentials/src/main/java/com/sirkaue/springbootessentials",
+    "last_opened_file_path": "C:/Users/kauel/IdeaProjects/demo-park-api",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -121,12 +124,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712940239163</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Implementando Service, Repository - pt1">
+      <option name="closed" value="true" />
+      <created>1712950416458</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1712950416458</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Hot Swap com Spring Boot Devtools" />
     <MESSAGE value="Gerando projeto com Spring Initializr" />
-    <option name="LAST_COMMIT_MESSAGE" value="Gerando projeto com Spring Initializr" />
+    <MESSAGE value="Implementando Service, Repository - pt1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando Service, Repository - pt1" />
   </component>
 </project>

@@ -10,6 +10,7 @@ public class Anime {
     }
 
     public Anime(Long id, String name) {
+        this.id = id;
         this.name = name;
     }
 
