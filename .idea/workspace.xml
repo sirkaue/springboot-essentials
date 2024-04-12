@@ -4,11 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d5e96c5-3150-43a3-836d-10b2cc8efcd4" name="Changes" comment="" />
+    <list default="true" id="7d5e96c5-3150-43a3-836d-10b2cc8efcd4" name="Changes" comment="Gerando projeto com Spring Initializr">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sirkaue/springbootessentials/controller/AnimeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sirkaue/springbootessentials/controller/AnimeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sirkaue/springbootessentials/domain/Anime.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sirkaue/springbootessentials/domain/Anime.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,7 +49,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kauel/OneDrive/Área de Trabalho/springboot-essentials/src/main/java/com/sirkaue/springbootessentials"
+    "last_opened_file_path": "C:/Users/kauel/OneDrive/Área de Trabalho/springboot-essentials/src/main/java/com/sirkaue/springbootessentials",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -43,7 +61,7 @@
       <recent name="C:\Users\kauel\OneDrive\Área de Trabalho\springboot-essentials\src\main\java\com\sirkaue\springbootessentials" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SpringbootEssentialsApplicationTests">
+  <component name="RunManager" selected="Application.SpringbootEssentialsApplication">
     <configuration name="SpringbootEssentialsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sirkaue.springbootessentials.SpringbootEssentialsApplication" />
       <module name="springboot-essentials" />
@@ -74,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SpringbootEssentialsApplicationTests" />
         <item itemvalue="Application.SpringbootEssentialsApplication" />
+        <item itemvalue="JUnit.SpringbootEssentialsApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -95,6 +113,20 @@
       <option name="presentableId" value="Default" />
       <updated>1712939799907</updated>
     </task>
+    <task id="LOCAL-00001" summary="Gerando projeto com Spring Initializr">
+      <option name="closed" value="true" />
+      <created>1712940239163</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712940239163</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Hot Swap com Spring Boot Devtools" />
+    <MESSAGE value="Gerando projeto com Spring Initializr" />
+    <option name="LAST_COMMIT_MESSAGE" value="Gerando projeto com Spring Initializr" />
   </component>
 </project>
