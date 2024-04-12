@@ -1,4 +1,4 @@
-package com.sirkaue.springboot.util;
+package com.sirkaue.springbootessentials.util;
 
 import org.springframework.stereotype.Component;
 

@@ -1,7 +1,7 @@
-package com.sirkaue.springboot.controller;
+package com.sirkaue.springbootessentials.controller;
 
-import com.sirkaue.springboot.domain.Anime;
-import com.sirkaue.springboot.util.DateUtil;
+import com.sirkaue.springbootessentials.domain.Anime;
+import com.sirkaue.springbootessentials.util.DateUtil;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.web.bind.annotation.GetMapping;

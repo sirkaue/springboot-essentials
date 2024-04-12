@@ -4,52 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087b6cec-df9e-42d9-bb56-fbf0d6c1c2ec" name="Changes" comment="Adicionando Injenção de Dependencia, util">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7d5e96c5-3150-43a3-836d-10b2cc8efcd4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
     </option>
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 7
+  &quot;associatedIndex&quot;: 2
 }</component>
-  <component name="ProjectId" id="2ey0aGnoWog2tgDZUuunvzdRZgV" />
+  <component name="ProjectId" id="2f0Z8v3SR2WuOg7C8zYAubboMvg" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ApplicationStart.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/kauel/IdeaProjects/springboot-essentials/src/main/java/com/sirkaue/springboot&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/kauel/IdeaProjects/springboot-essentials/src/main/java/org/example/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.SpringbootEssentialsApplication.executor": "Run",
+    "JUnit.SpringbootEssentialsApplicationTests.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/kauel/OneDrive/Área de Trabalho/springboot-essentials/src/main/java/com/sirkaue/springbootessentials"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="ApplicationStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.sirkaue.springboot.ApplicationStart" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kauel\OneDrive\Área de Trabalho\springboot-essentials\src\main\java\com\sirkaue\springbootessentials" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.SpringbootEssentialsApplicationTests">
+    <configuration name="SpringbootEssentialsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sirkaue.springbootessentials.SpringbootEssentialsApplication" />
       <module name="springboot-essentials" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.sirkaue.springboot.*" />
+          <option name="PATTERN" value="com.sirkaue.springbootessentials.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,9 +57,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringbootEssentialsApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot-essentials" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sirkaue.springbootessentials.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sirkaue.springbootessentials" />
+      <option name="MAIN_CLASS_NAME" value="com.sirkaue.springbootessentials.SpringbootEssentialsApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ApplicationStart" />
+        <item itemvalue="JUnit.SpringbootEssentialsApplicationTests" />
+        <item itemvalue="Application.SpringbootEssentialsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -73,34 +89,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="087b6cec-df9e-42d9-bb56-fbf0d6c1c2ec" name="Changes" comment="" />
-      <created>1712861571651</created>
+      <changelist id="7d5e96c5-3150-43a3-836d-10b2cc8efcd4" name="Changes" comment="" />
+      <created>1712939799907</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1712861571651</updated>
+      <updated>1712939799907</updated>
     </task>
-    <task id="LOCAL-00001" summary="Adicionando controller">
-      <option name="closed" value="true" />
-      <created>1712867461053</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1712867461053</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Adicionando Injenção de Dependencia, util">
-      <option name="closed" value="true" />
-      <created>1712871095435</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1712871095435</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="Adicionando controller" />
-    <MESSAGE value="Adicionando Injenção de Dependencia, util" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adicionando Injenção de Dependencia, util" />
   </component>
 </project>

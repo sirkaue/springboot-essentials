@@ -1,4 +1,4 @@
-package com.sirkaue.springboot.domain;
+package com.sirkaue.springbootessentials.domain;
 
 public class Anime {
     private String name;
