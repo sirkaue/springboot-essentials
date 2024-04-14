@@ -43,24 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.SpringbootEssentialsApplication.executor": "Run",
-    "JUnit.SpringbootEssentialsApplicationTests.executor": "Run",
-    "Maven.springboot-essentials [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor": "Run",
-    "Maven.springboot-essentials [org.apache.maven.plugins:maven-install-plugin:3.1.1:help].executor": "Run",
-    "Maven.springboot-essentials [org.apache.maven.plugins:maven-install-plugin:3.1.1:install-file].executor": "Run",
-    "Maven.springboot-essentials [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kauel/IdeaProjects/demo-park-api",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.idesettings.debugger.capture"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SpringbootEssentialsApplication.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.SpringbootEssentialsApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springboot-essentials [org.apache.maven.plugins:maven-clean-plugin:3.3.2:clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springboot-essentials [org.apache.maven.plugins:maven-install-plugin:3.1.1:help].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springboot-essentials [org.apache.maven.plugins:maven-install-plugin:3.1.1:install-file].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.springboot-essentials [org.apache.maven.plugins:maven-install-plugin:3.1.1:install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/kauel/IdeaProjects/demo-park-api&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.idesettings.debugger.capture&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\kauel\OneDrive\Área de Trabalho\springboot-essentials\src\main\java\com\sirkaue\springbootessentials" />
@@ -178,6 +179,7 @@
     <MESSAGE value="Implementando Service, Repository - pt1" />
     <MESSAGE value="Implementando Service, Repository - pt2" />
     <MESSAGE value="Adicionando Método POST" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/main'" />
     <MESSAGE value="Adicionadno Método POST" />
     <option name="LAST_COMMIT_MESSAGE" value="Adicionadno Método POST" />
   </component>
