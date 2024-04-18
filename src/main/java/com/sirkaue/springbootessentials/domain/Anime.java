@@ -17,9 +17,32 @@ public class Anime {
     public Anime() {
     }
 
-    public Anime(Long id, String name) {
+    private Anime(Long id, String name) {
         this.id = id;
         this.name = name;
+    }
+
+    public static AnimeBuilder builder() {
+        return new AnimeBuilder();
+    }
+
+    public static class AnimeBuilder {
+        private Long id;
+        private String name;
+
+        public AnimeBuilder id(Long id) {
+            this.id = id;
+            return this;
+        }
+
+        public AnimeBuilder name(String name) {
+            this.name = name;
+            return this;
+        }
+
+        public Anime build() {
+            return new Anime(id, name);
+        }
     }
 
     public Long getId() {

@@ -1,6 +1,8 @@
 package com.sirkaue.springbootessentials.controller;
 
 import com.sirkaue.springbootessentials.domain.Anime;
+import com.sirkaue.springbootessentials.requests.AnimePostRequestBody;
+import com.sirkaue.springbootessentials.requests.AnimePutRequestBody;
 import com.sirkaue.springbootessentials.service.AnimeService;
 import com.sirkaue.springbootessentials.util.DateUtil;
 import org.apache.logging.log4j.LogManager;
@@ -34,12 +36,12 @@ public class AnimeController {
 
     @GetMapping(path = "/{id}")
     public ResponseEntity<Anime> findById(@PathVariable Long id) {
-        return ResponseEntity.ok(animeService.findById(id));
+        return ResponseEntity.ok(animeService.findByIdOrThrowBadRequestException(id));
     }
 
     @PostMapping
-    public ResponseEntity<Anime> save(@RequestBody Anime anime) {
-        return new ResponseEntity<>(animeService.save(anime), HttpStatus.CREATED);
+    public ResponseEntity<Anime> save(@RequestBody AnimePostRequestBody animePostRequestBody) {
+        return new ResponseEntity<>(animeService.save(animePostRequestBody), HttpStatus.CREATED);
     }
 
     @DeleteMapping(path = "/{id}")
@@ -49,8 +51,8 @@ public class AnimeController {
     }
 
     @PutMapping
-    public ResponseEntity<Void> replace(@RequestBody Anime anime) {
-        animeService.replace(anime);
+    public ResponseEntity<Void> replace(@RequestBody AnimePutRequestBody animePutRequestBody) {
+        animeService.replace(animePutRequestBody);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
     }
 }
